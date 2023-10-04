@@ -17,9 +17,9 @@ struct ClupCardData: Identifiable {
 
 var cards = [
 
-    ClupCardData(cardHolder: "이윤지", cardNumber: "1234 5678 0309 0309", cardValidity: "2023-05-01", cardImage: "orangecard1"),
-    ClupCardData(cardHolder: "이윤지", cardNumber: "1234 5678 9012 1234", cardValidity: "2023-05-01", cardImage: "pinkcard1"),
-    ClupCardData(cardHolder: "이윤지", cardNumber: "1234 5678 9012 1234", cardValidity: "2023-05-01", cardImage: "bluecard1")
+    ClupCardData(cardHolder: "햅뻗떼 멤버", cardNumber: "1234 5678 0309 0309", cardValidity: "2023-05-01", cardImage: "orangecard1"),
+    ClupCardData(cardHolder: "HBD 멤버", cardNumber: "1234 5678 9012 1234", cardValidity: "2023-05-01", cardImage: "pinkcard1"),
+    ClupCardData(cardHolder: "행복인간", cardNumber: "1234 5678 9012 1234", cardValidity: "2023-05-01", cardImage: "bluecard1")
 
 ]
 

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct VipCardView: View {
+ 
+    
     @Binding var vipCardView : Date
     @State var startAnimation = false
     @State var startCardRotation = false
@@ -28,9 +30,13 @@ struct VipCardView: View {
                     //메뉴버튼과 텍스트 사이의 간격 spacing: 15
                     HStack(spacing: 15){
                         
-                        Button(action: { },
+                        Button(action: {
+                          
+                            
+                        },
                                label: {
-                            Image(systemName: "line.horizontal.3.decrease")
+                           // "line.horizontal.3.decrease"
+                            Image(systemName: "birthday.cake.fill")
                                 .font(.title)
                                 .foregroundColor(.orange)
                         })
@@ -39,21 +45,28 @@ struct VipCardView: View {
                             .foregroundColor(.orange)
                         Spacer(minLength: 0)
                         
-                        Button(action: { },
-                               label: {
-                            Image("cake01")
-                            
-                                .resizable()
-                                .background(Color.orange)
-                                .aspectRatio(contentMode: .fill)
-                                .frame(width: 40, height: 40)
-                                .clipShape(Circle())
-                            
-                        })
+//                        Button(action: { },
+//                               label: {
+//                            Image("cake01")
+//
+//                                .resizable()
+//                                .background(Color.orange)
+//                                .aspectRatio(contentMode: .fill)
+//                                .frame(width: 40, height: 40)
+//                                .clipShape(Circle())
+//
+//                        })
+              
                         
+                           
                         
                     }
+                
+                    
+                    
                     Spacer(minLength: -25)
+                    
+                   
                     ZStack{
                         //vip카드뷰
                         ForEach(cards.indices.reversed(),id: \.self){index in
@@ -263,7 +276,9 @@ struct vipCard: View {
                        
                         //codeImage()
                           //  .frame(width: 5, height: 5, alignment: .trailing)
-                        Text("⭐️1")}
+                  //      Text("⭐️1")
+                        
+                    }
                         .padding(.leading,270)
                     
                     Text("HBD Clup 햅벋떼 초대권")

@@ -27,13 +27,15 @@ struct TEXT: View {
     @State var multiColor = false
     @State var selectedDate = Date()
     @State var showDatePicker = false
+    @State var isDarkMode = false
+
     
     var body: some View {
         ZStack {
             VStack(spacing: 15){
-                TextShimer(text: "HBD TIME", mutiiColors: $multiColor)
+                TextShimer(text: "HBD Clup", mutiiColors: $multiColor)
                
-                TextShimer(text: "03.09", mutiiColors: $multiColor)
+               TextShimer(text: "Ticket", mutiiColors: $multiColor)
                // Text("03.09")
                     //.padding()
                         .font(.system(size: 55))
@@ -42,59 +44,67 @@ struct TEXT: View {
                     .onTapGesture {
                         showDatePicker.toggle()
                     }
-                if !showDatePicker {
-                    Toggle(isOn: $multiColor, label: {
-                        Text("Color Shower")
+             //   if !showDatePicker {
+                    Toggle(isOn: $isDarkMode, label: {
+                        Text("Dark Mode")
                             .font(.title)
                             .fontWeight(.bold)
                             .foregroundColor(.white)
                     })
                     .padding()
-                }
-               
-            }
-            .blur(radius: showDatePicker ? 3 : 0)
-            
-            if showDatePicker {
-                VStack {
-                 //   Spacer()
-                    ZStack {
-                        Color.black
-                        VStack {
-                            DatePicker("", selection: $selectedDate, displayedComponents: [.date])
-                                .datePickerStyle(WheelDatePickerStyle())
-                                .labelsHidden()
-                                .onAppear {
-                                   // let formatter = DateFormatter()
-                                 //   formatter.dateFormat = "yyyy/MM/dd"
-                                 //   selectedDate = formatter.date(from: "2023/04/26") ?? Date()
-                                }
-                                .foregroundColor(.orange)
-                            
-                            Button(action: {
-                                // 저장되는 코드를 추가합니다.
-                                showDatePicker.toggle()
-                                
-                            }, label: {
-                                Text("완료")
-                                    .foregroundColor(.orange)
-                            })
-                            
-                            .padding(.top, 10)
+                    .onChange(of: isDarkMode) { newValue in
+                        if newValue {
+                            multiColor = true
+                        } else {
+                            multiColor = false
                         }
                     }
-                    Spacer() // Spacer 추가하여 데이터피커를 눌렀을때 뷰가 확장되는것을 막아줌
-                   .frame(height: 250)
-                    .cornerRadius(20)
-                    .padding(40)
-                    .shadow(radius: 5)
-                }
-                .background(Color.black.edgesIgnoringSafeArea(.all))
+
                 
+               
             }
+          //  .blur(radius: showDatePicker ? 3 : 0)
+            
+//            if showDatePicker {
+//                VStack {
+//                 //   Spacer()
+//                    ZStack {
+//                        Color.black
+//                        VStack {
+//                            DatePicker("", selection: $selectedDate, displayedComponents: [.date])
+//                                .datePickerStyle(WheelDatePickerStyle())
+//                                .labelsHidden()
+//                                .onAppear {
+//                                   // let formatter = DateFormatter()
+//                                 //   formatter.dateFormat = "yyyy/MM/dd"
+//                                 //   selectedDate = formatter.date(from: "2023/04/26") ?? Date()
+//                                }
+//                                .foregroundColor(.orange)
+//
+//                            Button(action: {
+//                                // 저장되는 코드를 추가합니다.
+//                                showDatePicker.toggle()
+//
+//                            }, label: {
+//                                Text("완료")
+//                                    .foregroundColor(.orange)
+//                            })
+//
+//                            .padding(.top, 10)
+//                        }
+//                    }
+//                    Spacer() // Spacer 추가하여 데이터피커를 눌렀을때 뷰가 확장되는것을 막아줌
+//                   .frame(height: 250)
+//                    .cornerRadius(20)
+//                    .padding(40)
+//                    .shadow(radius: 5)
+//                }
+//                .background(Color.black.edgesIgnoringSafeArea(.all))
+//
+//            }
             
         }
-        .preferredColorScheme(.dark)
+        .preferredColorScheme(isDarkMode ? .dark : .light)
        
     }
     

@@ -16,5 +16,5 @@ struct ClubView: View {
 struct ClubView_Previews: PreviewProvider {
     static var previews: some View {
         ClubView()
-    }
+    } 
 }

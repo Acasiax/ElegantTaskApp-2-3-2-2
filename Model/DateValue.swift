@@ -7,14 +7,11 @@
 
 import SwiftUI
 
-struct DateValue: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+//Date value model..
 
-struct DateValue_Previews: PreviewProvider {
-    static var previews: some View {
-        DateValue()
-    }
+struct DateValue: Identifiable{
+    var id = UUID().uuidString
+    var day: Int
+    var date: Date
+    
 }

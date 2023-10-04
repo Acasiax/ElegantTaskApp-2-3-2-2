@@ -7,14 +7,32 @@
 
 import SwiftUI
 
-struct Ubuntu: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+enum Ubuntu{
+    case light
+    case bold
+    case medium
+    case regular
+    
+    var weight: Font.Weight{
+        switch self{
+        case .light:
+            return.light
+            
+        case .bold:
+            return.bold
+            
+        case .medium:
+            return.medium
+            
+        case .regular:
+            return.regular
+        }
     }
 }
 
-struct Ubuntu_Previews: PreviewProvider {
-    static var previews: some View {
-        Ubuntu()
+extension View {
+    func ubuntu(_ size: CGFloat, _ weight: Ubuntu) -> some View {
+        self.font(.system(size: size, weight: weight.weight))
     }
 }
+

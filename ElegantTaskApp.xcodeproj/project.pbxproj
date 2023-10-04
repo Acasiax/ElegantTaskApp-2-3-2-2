@@ -13,6 +13,33 @@
 		7A49AE4729E8FEC300115E95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A49AE4629E8FEC300115E95 /* Preview Assets.xcassets */; };
 		7A49AE4929E8FEC300115E95 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49AE4829E8FEC300115E95 /* Persistence.swift */; };
 		7A49AE4C29E8FEC300115E95 /* ElegantTaskApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A49AE4A29E8FEC300115E95 /* ElegantTaskApp.xcdatamodeld */; };
+		7A49AE5529E9001700115E95 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49AE5429E9001700115E95 /* Home.swift */; };
+		7A49AE5729E900D100115E95 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49AE5629E900D100115E95 /* MainContentView.swift */; };
+		7A49AE5929E9023A00115E95 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49AE5829E9023A00115E95 /* CustomDatePicker.swift */; };
+		7A49AE5B29E9196E00115E95 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49AE5A29E9196E00115E95 /* DateValue.swift */; };
+		7A49AE5D29E93AD100115E95 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49AE5C29E93AD100115E95 /* Task.swift */; };
+		7A49AE5F29EA3DC700115E95 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49AE5E29EA3DC700115E95 /* AddTaskView.swift */; };
+		7A49AE6329EA677D00115E95 /* Ubuntu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49AE6229EA677D00115E95 /* Ubuntu.swift */; };
+		7A49AE6529EAEEFB00115E95 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49AE6429EAEEFB00115E95 /* CheckboxView.swift */; };
+		7A49AE6929EC5E8900115E95 /* CalBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49AE6829EC5E8900115E95 /* CalBackground.swift */; };
+		7A49AE6B29EC7D6300115E95 /* HBDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49AE6A29EC7D6300115E95 /* HBDView.swift */; };
+		7A49AE6D29ED314000115E95 /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49AE6C29ED314000115E95 /* cardView.swift */; };
+		7A49AE6F29EDAA1700115E95 /* BirthMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49AE6E29EDAA1700115E95 /* BirthMonth.swift */; };
+		7A49AE7129EDC7D600115E95 /* ClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49AE7029EDC7D600115E95 /* ClubView.swift */; };
+		7A49AE7329EE640600115E95 /* PartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49AE7229EE640600115E95 /* PartyView.swift */; };
+		7A49AE7C29F367F200115E95 /* HBDViews.Sup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49AE7B29F367F200115E95 /* HBDViews.Sup.swift */; };
+		7AC8E2D62A1A48EA00DB3EEF /* wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC8E2D52A1A48EA00DB3EEF /* wheel.swift */; };
+		7AC8E2D82A1DED6D00DB3EEF /* persistant.trash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC8E2D72A1DED6D00DB3EEF /* persistant.trash.swift */; };
+		7AC8E2DA2A1E365D00DB3EEF /* DATETIME.TRASH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC8E2D92A1E365D00DB3EEF /* DATETIME.TRASH.swift */; };
+		7AC8E3172A24ED2300DB3EEF /* LaunchSCreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC8E3162A24ED2300DB3EEF /* LaunchSCreen.swift */; };
+		7AC8E31A2A24F4D300DB3EEF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC8E3192A24F4D300DB3EEF /* Launch Screen.storyboard */; };
+		7AE3E01729FCA30D00D04617 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3E01629FCA30D00D04617 /* ChatView.swift */; };
+		7AE3E01929FCA31500D04617 /* ClupCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3E01829FCA31500D04617 /* ClupCardData.swift */; };
+		7AE3E01B29FCA31A00D04617 /* VipCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3E01A29FCA31A00D04617 /* VipCardView.swift */; };
+		7AE3E01D29FCA38600D04617 /* DATETIME.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3E01C29FCA38600D04617 /* DATETIME.swift */; };
+		7AE3E01F29FCA51100D04617 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3E01E29FCA51100D04617 /* NetworkManager.swift */; };
+		7AE3E0252A07CD7300D04617 /* Holy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3E0242A07CD7300D04617 /* Holy.swift */; };
+		7AE3E0272A07DA8400D04617 /* CustomDatePicker22onborn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3E0262A07DA8400D04617 /* CustomDatePicker22onborn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +50,34 @@
 		7A49AE4629E8FEC300115E95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A49AE4829E8FEC300115E95 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		7A49AE4B29E8FEC300115E95 /* ElegantTaskApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ElegantTaskApp.xcdatamodel; sourceTree = "<group>"; };
+		7A49AE5429E9001700115E95 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7A49AE5629E900D100115E95 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		7A49AE5829E9023A00115E95 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		7A49AE5A29E9196E00115E95 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		7A49AE5C29E93AD100115E95 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		7A49AE5E29EA3DC700115E95 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		7A49AE6229EA677D00115E95 /* Ubuntu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ubuntu.swift; sourceTree = "<group>"; };
+		7A49AE6429EAEEFB00115E95 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		7A49AE6829EC5E8900115E95 /* CalBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalBackground.swift; sourceTree = "<group>"; };
+		7A49AE6A29EC7D6300115E95 /* HBDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBDView.swift; sourceTree = "<group>"; };
+		7A49AE6C29ED314000115E95 /* cardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
+		7A49AE6E29EDAA1700115E95 /* BirthMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthMonth.swift; sourceTree = "<group>"; };
+		7A49AE7029EDC7D600115E95 /* ClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubView.swift; sourceTree = "<group>"; };
+		7A49AE7229EE640600115E95 /* PartyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyView.swift; sourceTree = "<group>"; };
+		7A49AE7B29F367F200115E95 /* HBDViews.Sup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBDViews.Sup.swift; sourceTree = "<group>"; };
+		7AC8E2D52A1A48EA00DB3EEF /* wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wheel.swift; sourceTree = "<group>"; };
+		7AC8E2D72A1DED6D00DB3EEF /* persistant.trash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = persistant.trash.swift; sourceTree = "<group>"; };
+		7AC8E2D92A1E365D00DB3EEF /* DATETIME.TRASH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DATETIME.TRASH.swift; sourceTree = "<group>"; };
+		7AC8E3162A24ED2300DB3EEF /* LaunchSCreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSCreen.swift; sourceTree = "<group>"; };
+		7AC8E3182A24F31300DB3EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7AC8E3192A24F4D300DB3EEF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7AE3E01629FCA30D00D04617 /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		7AE3E01829FCA31500D04617 /* ClupCardData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClupCardData.swift; sourceTree = "<group>"; };
+		7AE3E01A29FCA31A00D04617 /* VipCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VipCardView.swift; sourceTree = "<group>"; };
+		7AE3E01C29FCA38600D04617 /* DATETIME.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DATETIME.swift; sourceTree = "<group>"; };
+		7AE3E01E29FCA51100D04617 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7AE3E0242A07CD7300D04617 /* Holy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holy.swift; sourceTree = "<group>"; };
+		7AE3E0262A07DA8400D04617 /* CustomDatePicker22onborn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker22onborn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +94,8 @@
 		7A49AE3329E8FEC100115E95 = {
 			isa = PBXGroup;
 			children = (
+				7A49AE5329E8FFDB00115E95 /* Model */,
+				7A49AE5229E8FFC400115E95 /* View */,
 				7A49AE3E29E8FEC100115E95 /* ElegantTaskApp */,
 				7A49AE3D29E8FEC100115E95 /* Products */,
 			);
@@ -55,10 +112,13 @@
 		7A49AE3E29E8FEC100115E95 /* ElegantTaskApp */ = {
 			isa = PBXGroup;
 			children = (
+				7AC8E3182A24F31300DB3EEF /* Info.plist */,
 				7A49AE3F29E8FEC100115E95 /* ElegantTaskAppApp.swift */,
 				7A49AE4129E8FEC100115E95 /* ContentView.swift */,
+				7A49AE5629E900D100115E95 /* MainContentView.swift */,
 				7A49AE4329E8FEC300115E95 /* Assets.xcassets */,
 				7A49AE4829E8FEC300115E95 /* Persistence.swift */,
+				7AC8E2D72A1DED6D00DB3EEF /* persistant.trash.swift */,
 				7A49AE4A29E8FEC300115E95 /* ElegantTaskApp.xcdatamodeld */,
 				7A49AE4529E8FEC300115E95 /* Preview Content */,
 			);
@@ -71,6 +131,45 @@
 				7A49AE4629E8FEC300115E95 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A49AE5229E8FFC400115E95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AE3E01629FCA30D00D04617 /* ChatView.swift */,
+				7AE3E01A29FCA31A00D04617 /* VipCardView.swift */,
+				7AE3E01C29FCA38600D04617 /* DATETIME.swift */,
+				7AC8E2D92A1E365D00DB3EEF /* DATETIME.TRASH.swift */,
+				7A49AE6E29EDAA1700115E95 /* BirthMonth.swift */,
+				7A49AE7229EE640600115E95 /* PartyView.swift */,
+				7AC8E3162A24ED2300DB3EEF /* LaunchSCreen.swift */,
+				7AC8E3192A24F4D300DB3EEF /* Launch Screen.storyboard */,
+				7A49AE6C29ED314000115E95 /* cardView.swift */,
+				7A49AE5429E9001700115E95 /* Home.swift */,
+				7A49AE5829E9023A00115E95 /* CustomDatePicker.swift */,
+				7AE3E0262A07DA8400D04617 /* CustomDatePicker22onborn.swift */,
+				7A49AE6A29EC7D6300115E95 /* HBDView.swift */,
+				7A49AE7B29F367F200115E95 /* HBDViews.Sup.swift */,
+				7A49AE5E29EA3DC700115E95 /* AddTaskView.swift */,
+				7A49AE6829EC5E8900115E95 /* CalBackground.swift */,
+				7A49AE7029EDC7D600115E95 /* ClubView.swift */,
+				7AC8E2D52A1A48EA00DB3EEF /* wheel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A49AE5329E8FFDB00115E95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AE3E01E29FCA51100D04617 /* NetworkManager.swift */,
+				7A49AE5A29E9196E00115E95 /* DateValue.swift */,
+				7A49AE5C29E93AD100115E95 /* Task.swift */,
+				7A49AE6229EA677D00115E95 /* Ubuntu.swift */,
+				7A49AE6429EAEEFB00115E95 /* CheckboxView.swift */,
+				7AE3E0242A07CD7300D04617 /* Holy.swift */,
+				7AE3E01829FCA31500D04617 /* ClupCardData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AC8E31A2A24F4D300DB3EEF /* Launch Screen.storyboard in Resources */,
 				7A49AE4729E8FEC300115E95 /* Preview Assets.xcassets in Resources */,
 				7A49AE4429E8FEC300115E95 /* Assets.xcassets in Resources */,
 			);
@@ -143,10 +243,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AE3E01D29FCA38600D04617 /* DATETIME.swift in Sources */,
+				7A49AE7129EDC7D600115E95 /* ClubView.swift in Sources */,
+				7AC8E3172A24ED2300DB3EEF /* LaunchSCreen.swift in Sources */,
 				7A49AE4929E8FEC300115E95 /* Persistence.swift in Sources */,
+				7A49AE6B29EC7D6300115E95 /* HBDView.swift in Sources */,
+				7AE3E01729FCA30D00D04617 /* ChatView.swift in Sources */,
+				7AC8E2DA2A1E365D00DB3EEF /* DATETIME.TRASH.swift in Sources */,
+				7A49AE5F29EA3DC700115E95 /* AddTaskView.swift in Sources */,
+				7A49AE6329EA677D00115E95 /* Ubuntu.swift in Sources */,
+				7AE3E0272A07DA8400D04617 /* CustomDatePicker22onborn.swift in Sources */,
 				7A49AE4229E8FEC100115E95 /* ContentView.swift in Sources */,
+				7AC8E2D62A1A48EA00DB3EEF /* wheel.swift in Sources */,
+				7A49AE5529E9001700115E95 /* Home.swift in Sources */,
 				7A49AE4029E8FEC100115E95 /* ElegantTaskAppApp.swift in Sources */,
 				7A49AE4C29E8FEC300115E95 /* ElegantTaskApp.xcdatamodeld in Sources */,
+				7AE3E0252A07CD7300D04617 /* Holy.swift in Sources */,
+				7AC8E2D82A1DED6D00DB3EEF /* persistant.trash.swift in Sources */,
+				7A49AE6D29ED314000115E95 /* cardView.swift in Sources */,
+				7A49AE6529EAEEFB00115E95 /* CheckboxView.swift in Sources */,
+				7A49AE6929EC5E8900115E95 /* CalBackground.swift in Sources */,
+				7AE3E01B29FCA31A00D04617 /* VipCardView.swift in Sources */,
+				7A49AE6F29EDAA1700115E95 /* BirthMonth.swift in Sources */,
+				7A49AE5B29E9196E00115E95 /* DateValue.swift in Sources */,
+				7AE3E01929FCA31500D04617 /* ClupCardData.swift in Sources */,
+				7A49AE5929E9023A00115E95 /* CustomDatePicker.swift in Sources */,
+				7A49AE7329EE640600115E95 /* PartyView.swift in Sources */,
+				7AE3E01F29FCA51100D04617 /* NetworkManager.swift in Sources */,
+				7A49AE7C29F367F200115E95 /* HBDViews.Sup.swift in Sources */,
+				7A49AE5D29E93AD100115E95 /* Task.swift in Sources */,
+				7A49AE5729E900D100115E95 /* MainContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,21 +404,25 @@
 				DEVELOPMENT_TEAM = 4KLMMMFY4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElegantTaskApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HBD;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.acasia.ElegantTaskApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,21 +437,25 @@
 				DEVELOPMENT_TEAM = 4KLMMMFY4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElegantTaskApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HBD;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.acasia.ElegantTaskApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
